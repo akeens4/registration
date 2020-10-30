@@ -1,0 +1,5 @@
+package com.akinlolu.controller;
+
+public class UserController {
+
+}

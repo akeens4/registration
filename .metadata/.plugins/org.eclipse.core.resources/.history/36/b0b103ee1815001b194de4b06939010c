@@ -1,0 +1,5 @@
+package com.akinlolu.repository;
+
+public interface UserRepository {
+
+}

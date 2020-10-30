@@ -1,0 +1,18 @@
+package com.akinlolu.model;
+
+import javax.persistence.*;
+
+
+import lombok.Data;
+
+@Entity
+@Data
+public class Users {
+
+	@Id
+	@GeneratedValue
+	private int id;
+	private String fullname;
+	private String email;
+	private String phone_number;
+}
